@@ -1,9 +1,2 @@
-testing
-
-this is another test
-
-this is a test
-
-test
-
-test
+console.log('test');
+console.log('test');
