@@ -28,7 +28,7 @@ let students = [
   
   
   const biggest = students.reduce((acc, curr) => {  
-    if (!acc?.name) {
+    if (!acc.name) {
         acc = { name: curr.name, max: curr.results.english };
     } else if (curr.results.english > acc.max) {
         acc = { name: curr.name, max: curr.results.english };
