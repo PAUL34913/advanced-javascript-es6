@@ -37,3 +37,10 @@ let students = [
     return acc;
   }, {});
   console.log(biggest);
+  console.table(students[0].teacher);
+
+let x = 5;
+
+
+console.assert(x !== 5, 'Yes!');
+console.assert(x === 5, 'No!');
